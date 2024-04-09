@@ -1,0 +1,10 @@
+{
+    "host": "balaton.palantirfedstart.com",
+    "port": 5432,
+    "database": "ncats",
+    "user": "ncatsServiceUser",
+    "password": "xxxxxxxxx-xx-xxxx-xxxx-xxxxxxxxxxx",
+    "connectionLimit": 5,
+    "sslPemFile": "global-bundle.pem",
+    "testQuery": "Select * from Client"
+}

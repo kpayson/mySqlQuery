@@ -6,5 +6,6 @@
     "password": "xxxxxxxxx-xx-xxxx-xxxx-xxxxxxxxxxx",
     "connectionLimit": 5,
     "sslPemFile": "global-bundle.pem",
+    "sslRejectUnauthorized":false,
     "testQuery": "Select * from Client"
 }

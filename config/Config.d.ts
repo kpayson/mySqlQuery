@@ -9,6 +9,7 @@ declare module "node-config-ts" {
     password: string
     connectionLimit: number
     sslPemFile: string
+    sslRejectUnauthorized: boolean
     testQuery: string
   }
   export const config: Config

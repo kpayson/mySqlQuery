@@ -14,6 +14,7 @@ const poolOptions = {
     connectionLimit: config.connectionLimit,
     ssl: {
       ca: [ca],
+      rejectUnauthorized: config.sslRejectUnauthorized
     }
 };
 const pool  =  createPool(poolOptions);

@@ -5,7 +5,7 @@
     "user": "ncatsServiceUser",
     "password": "xxxxxxxxx-xx-xxxx-xxxx-xxxxxxxxxxx",
     "connectionLimit": 5,
-    "sslPemFile": "global-bundle.pem",
+    "sslPemFile": "global-bundle-fedstart.pem",
     "sslRejectUnauthorized":false,
     "testQuery": "Select * from Client"
 }

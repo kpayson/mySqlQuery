@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc && copyfiles global-bundle.pem dist",
+    "build": "tsc && copyfiles *.pem dist",
     "start": "NODE_ENV=local node dist/main.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "node-config-ts"
